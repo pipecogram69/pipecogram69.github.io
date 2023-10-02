@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>portafolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo"> 
+            <a href="#">FELIPE</a>
+            </div>
+            <nav id="nav" >
+
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI </a></li>
+                    <li><a href="#habilidades"onclick="seleccionar()">HABILIDADES</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()" >CURRICULUM</a></li>
+                    <li><a href="#portafolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid  fa-bars"></i>
+            </div>
+        
+        </header>
+
+    </div>
+
+    <!-- SECCION DE INICIO  -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="png/PhotoRoom_20230712_155513.jpg" class="circulo" alt="">
+
+            </div>
+            <h1>FELIPE CORTES</h1>
+            <H2>ESTUDIANTE INGIENERIA DE SISTEMAS-QUINTO SEMESTRE</H2>
+            <div class="redes">
+                <a href="https://www.facebook.com/profile.php?id=61552110596110"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://wa.link/clz5gv"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.instagram.com/pipecogram/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/"><i class="fa-brands fa-github"></i></a>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+<!-- SECCION SOBRE MI -->
+<section id="sobremi" class="sobremi">
+    <div class="contenido-seccion">
+        <h2>SOBRE MI </h2>
+        <p><span>Hola,soy Felipe Cortes</span> les voy a contar un poco sobre mi soy estudiante de la univercidad central de colombia , en la carrera de ingieneria de sistemas 
+            ,voy en quinto semestre de carrera ,estoy aprendiendo las plataformas de HTML ,CSS ,JAVA SCRIPT, JAVA,C++,PYTHON,tengo un enfoque mayor en las plataformas de desarollo web (HTML,CSS,JAVA SCRIPT,PYTHON) estoy preparandome para estas plataformas y dominarlas al 100% ,
+            tengo 20 años y la idea de esto es aprender lo mas que se pueda y ser un buen desarollador.</p>
+
+            <div class="fila"> 
+            <!-- datos personales  --> 
+            <div class="col">
+            <h3>DATOS PERSONALES</h3>
+            <ul>
+                <li>
+                    <strong>CUMPLEAÑOS:</strong>
+                    08-09-2003
+                </li>
+                <li>
+                    <strong>CELULAR:</strong>
+                    +57 3013090129
+                </li>
+                <li>
+                    <strong>CORREO:</strong>
+                    felipe_cortes21@hotmail.com
+                    
+                </li>
+                <li>
+                    <strong>DIRECCION:</strong>
+                    Calle 1c#54-12 , bogota
+                </li>
+                <li>
+                    <strong>CARGO:</strong>
+                    <span>estudiante</span>
+                </li>
+            </ul>
+            
+            </div>
+
+            <!-- intereses -->
+            <div class="col">
+                <h3>INTERESES</h3>
+                <div class="contenedor-intereses">
+                    <div class="interes">
+                        <i class="fa-solid fa-gamepad"></i>
+                        <span>JUEGOS</span>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                            <div class="interes">
+                                <i class="fa-solid fa-futbol"></i> 
+                                <span>DEPORTES</span>
+                                <div class="interes">
+                                    <i class="fa-solid fa-plane"></i>
+                                    <span>VIAJAR</span>
+                                    <div class="interes">
+                                        <i class="fa-solid fa-car"></i>
+                                        <span>MANEJAR</span>
+                                        <div class="interes">
+                                            <i class="fa-solid fa-person"></i>
+                                            <span>PERSONAS</span>
+                                            <div class="interes">
+                                                <i class="fa-solid fa-clock"></i>
+                                                <span>TIEMPO </span>
+                                                <div class="interes">
+                                                    <i class="fa-solid fa-book"></i>
+                                                    <span>LIBRO </span>
+                                                    <div class="interes">
+                                                        <i class="fa-solid fa-dog"></i>
+                                                        <span>MASCOTAS </span>
+    
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <button>
+            descargar CV <i class="fa-solid fa-download"></i>
+            <span class=" overlay"></span>
+        </button>
+    </div>
+
+</section>
+
+<!-- SECCION HABILIDADES -->
+<section class="habilidades" id="habilidades">
+    <div class="contenido-seccion">
+        <h2>HABILIDADES</h2>
+        <div class="fila">
+            <!-- HABILIDADES TECNICAS -->
+            <div class="col">
+                <h3>habilidades tecnicas</h3>
+                <div class="habilidades">
+                    <span>Javascript</span>
+                    <div class="barra-habilidades">
+                        <div class="progreso javascript">
+                            <span>30%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="habilidades">
+                    <span>HTML & CSS</span>
+                    <div class="barra-habilidades">
+                        <div class="progreso htmlcss">
+                            <span>40%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="habilidades">
+                    <span>PYTHON</span>
+                    <div class="barra-habilidades">
+                        <div class="progreso python">
+                            <span>25%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="habilidades">
+                    <span>c++</span>
+                    <div class="barra-habilidades">
+                        <div class="progreso cmas">
+                            <span>60%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="habilidades">
+                    <span>JAVA</span>
+                    <div class="barra-habilidades">
+                        <div class="progreso java ">
+                            <span>45%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--HABILIDADES PROFESIONALES  -->
+            <div class="col">
+                <h3>habilidades dentro del proyecto</h3>
+                <div class="habilidades">
+                    <span>Comunicación</span>
+                    <div class="barra-habilidades">
+                        <div class="progreso comunicacion">
+                            <span>80%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="habilidades">
+                    <span>Trabajo en Equipo</span>
+                    <div class="barra-habilidades">
+                        <div class="progreso trabajoenequipo">
+                            <span>85%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="habilidades">
+                    <span>Creatividad</span>
+                    <div class="barra-habilidades">
+                        <div class="progreso creatividad">
+                            <span>90%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="habilidades">
+                    <span>Dedicación</span>
+                    <div class="barra-habilidades">
+                        <div class="progreso dedicacion">
+                            <span>75%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="habilidades">
+                    <span>gestion del proyecto</span>
+                    <div class="barra-habilidades">
+                        <div class="progreso gestiondelproyecto">
+                            <span>84%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</section>
+
+<!-- seccion curriculum -->
+<section id="curriculum" class="curriculum">
+    <div class="contenido-seccion">
+        <h2>Curriculum</h2>
+        <div class="fila">
+            <div class="col izquierda">
+                <h3>Educación</h3>
+                <div class="item izq">
+                    <h4>Ingieneria En Sistemas</h4>
+                    <span class="casa">Universidad central bogota</span>
+                    <span class="fecha">2021-actualidad</span>
+                    <p>estudiante ingieneria de sistemas en la
+                        universidad central de bogota 
+                        desde el año 2021 hasta la actualidad 
+                        ejerzo quinto semestre de mi carrera</p>
+                    <div class="conectori">
+                        <div class="circuloi"></div>
+                    </div>
+                </div>
+                <div class="item izq">
+                    <h4>Ingieneria En Sistemas</h4>
+                    <span class="casa">Universidad central bogota</span>
+                    <span class="fecha">2021-actualidad</span>
+                    <p>estudiante ingieneria de sistemas en la
+                        universidad central de bogota 
+                        desde el año 2021 hasta la actualidad 
+                        ejerzo quinto semestre de mi carrera</p>
+                    <div class="conectori">
+                        <div class="circuloi"></div>
+                    </div>
+                </div>
+                <div class="item izq">
+                    <h4>Ingieneria En Sistemas</h4>
+                    <span class="casa">Universidad central bogota</span>
+                    <span class="fecha">2021-actualidad</span>
+                    <p>estudiante ingieneria de sistemas en la
+                        universidad central de bogota 
+                        desde el año 2021 hasta la actualidad 
+                        ejerzo quinto semestre de mi carrera</p>
+                    <div class="conectori">
+                        <div class="circuloi"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col derecha">
+                <h3>Experiencia de trabajo</h3>
+                <div class="item der">
+                    <h4>CURSOS</h4>
+                    <span class="casa">Nombre de Compañía</span>
+                    <span class="fecha">2021-actualidad</span>
+                    <p>estudiante ingieneria de sistemas en la
+                        universidad central de bogota 
+                        desde el año 2021 hasta la actualidad 
+                        ejerzo quinto semestre de mi carrera</p>
+                    <div class="conectord">
+                        <div class="circulod"></div>
+                    </div>
+                </div>
+                <div class="item der">
+                    <h4>CURSOS</h4>
+                    <span class="casa">Nombre de Compañía</span>
+                    <span class="fecha">2021-actualidad</span>
+                    <p>estudiante ingieneria de sistemas en la
+                        universidad central de bogota 
+                        desde el año 2021 hasta la actualidad 
+                        ejerzo quinto semestre de mi carrera</p>
+                    <div class="conectord">
+                        <div class="circulod"></div>
+                    </div>
+                </div>
+                <div class="item der">
+                    <h4>CURSOS</h4>
+                    <span class="casa">Nombre de Compañía</span>
+                    <span class="fecha">2021-actualidad</span>
+                    <p>estudiante ingieneria de sistemas en la
+                        universidad central de bogota 
+                        desde el año 2021 hasta la actualidad 
+                        ejerzo quinto semestre de mi carrera</p>
+                    <div class="conectord">
+                        <div class="circulod"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- SECCION PORTAFOLIO -->
+<section id="portafolio" class="portafolio">
+    <div class="contenido-seccion">
+        <h2>PORTAFOLIO</h2>
+        <div class="galeria">
+            <div class="proyecto">
+                <img  src="png/img2.jpg" alt="">
+                <div class="overlay">
+                    <h3>boton magico </h3>
+                    <p>cuenta </p>
+
+                </div>
+
+            </div>
+            <div class="proyecto">
+                <img  src="png/img1.jpg" alt="">
+                <div class="overlay">
+                    <h3>Diseño cuenta regresiva</h3>
+                    <p>boton </p>
+
+                </div>
+
+            </div>
+            
+
+    
+        <div class="proyecto">
+            <img  src="png/img3.jpg" alt="">
+            <div class="overlay">
+                <h3>para nuevos proyectos</h3>
+                <p>boton </p>
+
+            </div>
+
+        </div>
+        <div class="proyecto">
+            <img  src="png/img4.jpg" alt="">
+            <div class="overlay">
+                <h3>para nuevos proyectos</h3>
+                <p>boton </p>
+
+            </div>
+
+        </div>
+        
+    </div>
+</div>
+</section>
+<!-- SECCION CONTACTO -->
+<section id="contacto" class="contacto">
+    <div class="contenido-seccion">
+        <h2>CONTACTO</h2>
+        <div class="fila">
+            <!-- Formulario -->
+            <div class="col">
+                <input type="text" placeholder="Tú Nombre">
+                <input type="text" placeholder="celular">
+                <input type="text" placeholder=" correo">
+                
+                <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                <button>
+                    Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                    <span class="overlay"></span>
+                </button>
+            </div>
+            <!-- Mapa -->
+            <div class="col">
+                <img src="png/fondo-geometrico-abstracto-3d-pared-poligono-limpio-luz-minima_77323-1234.avif" alt="">
+                <div class="info">
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-envelope"></i>
+                            felipe_cortes21@hotmail.com
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-check"></i>
+                            felipe_cortes1@hotmail.com
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-mobile-screen"></i>
+                            3013090129 
+                        </li>
+                    
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- footer -->
+<footer>
+    <a href="#inicio" class="arriba">
+    <i class="fa-solid fa-angles-up"></i>
+</a>
+<div class="redes">
+    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+    <a href="#"><i class="fa-brands fa-github"></i></a>
+</div>
+</footer>
+
+<script src="script.js"></script>
+    
+</body>
+</html>
